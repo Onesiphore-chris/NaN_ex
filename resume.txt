@@ -1,3 +1,16 @@
+                // RESUME DE GIT 
+
+C'est quoi Git ? Git est un système de contrôle de version open source.
+Concrètement, c'est un outil qui te permet de traquer tous les fichiers 
+de ton projet. Chaque modification de fichier 
+est alors détectée par Git et versionnée dans une version instantanée
+
+ a ce effet plusieur commande son definie pour , 
+
+ -- l'insertion
+ -- l'affichage
+ -- la recuperration 
+ 
 //  Démarrer un dépôt Git
 
 Cloner un dépôt existant
