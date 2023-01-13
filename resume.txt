@@ -1,0 +1,43 @@
+//  Démarrer un dépôt Git
+
+Cloner un dépôt existant
+$ git clone ssh://chris@serveur/git/Nan_exo.git
+$ git clone
+
+II. Enregistrer des modifications dans un dépôt
+a. Vérifier l’état des fichiers
+$ git status
+
+II. Enregistrer des modifications dans un dépôt
+c. Valider les modifications
+$ git commit –m « Mon premier commit» 
+La commande «commit» 
+
+// Visualiser l’historique des validations
+$ git log
+
+// Enregistrer des modifications dans un dépôt
+
+Pousser son travail sur un dépôt distant
+$ git push origin master
+
+La commande «push» sert à envoyer tout les «commits» 
+
+Récupérer et tirer depuis des dépôts distants
+$ git pull 
+La commande «pull» permet de mettre à jour votre dépôt 
+
+Créer une nouvelle branche nommée « feature_x »
+$ git branch feature_x
+ Basculer vers une branche existante
+$ git checkout feature_x
+
+
+//  Retourner sur la branche principale
+$ git checkout master
+
+ // Supprimer la branche
+$ git branch –d feature_x
+
+//  Incorporation des modifications d’une branche 
+$ git merge <branche>
